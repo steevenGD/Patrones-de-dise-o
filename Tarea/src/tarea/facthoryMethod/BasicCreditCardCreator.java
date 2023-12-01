@@ -8,16 +8,10 @@ package tarea.facthoryMethod;
  *
  * @author USUARIO
  */
-public class BasicCreditCard implements CreditCard{
-
+public class BasicCreditCardCreator extends CreditCardCreator{
+        
     @Override
-    public void setLimit(float crediLimit) {
-        //code
+    public CreditCard creatCard(CreditCard type){
+        return type;
     }
-
-    @Override
-    public void setCost(float annualCost) {
-        //code
-    }
-    
 }
