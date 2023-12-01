@@ -8,7 +8,7 @@ package tarea.facthoryMethod;
  *
  * @author USUARIO
  */
-public class BasicCreditCard implements CreditCard{
+public class PremiumCreditCard implements CreditCard{
 
     @Override
     public void setLimit(float crediLimit) {
@@ -19,5 +19,5 @@ public class BasicCreditCard implements CreditCard{
     public void setCost(float annualCost) {
         //code
     }
-    
+     
 }
