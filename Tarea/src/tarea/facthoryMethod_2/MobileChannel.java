@@ -5,19 +5,18 @@
 package tarea.facthoryMethod_2;
 
 import java.security.DrbgParameters;
-import java.security.DrbgParameters.Capability;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  *
- * @author USUARIO
+ * @author mcruz
  */
-public class WebChannel implements VirtualChannel {
-
-    @Override
-    public List<Capability> getCapabilities() {
+public class MobileChannel implements VirtualChannel{
+     @Override
+    public List<DrbgParameters.Capability> getCapabilities() {
         return new LinkedList();
     }
+    
     
 }
