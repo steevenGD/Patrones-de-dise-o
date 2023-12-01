@@ -1,5 +1,5 @@
 
-package tarea;
+package tarea.decorator;
 
 
 public class WhatsAppNotificacionDecorator extends BaseNotificacion {

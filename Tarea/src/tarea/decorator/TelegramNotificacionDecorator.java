@@ -1,4 +1,4 @@
-package tarea;
+package tarea.decorator;
 
 
 public class TelegramNotificacionDecorator extends BaseNotificacion {
