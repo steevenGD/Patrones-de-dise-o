@@ -12,19 +12,12 @@ import java.util.List;
  *
  * @author mcruz
  */
-public class VirtualChannelCreator implements VirtualChannel {
-    public VirtualChannel createChannel(VirtualChannel virt){
-    return virt;
-    }
-     @Override
+public class PhoneChannel implements VirtualChannel {
+    @Override
     public List<DrbgParameters.Capability> getCapabilities() {
         return new LinkedList();
     }
-    public static void main(String[] args){
-        VirtualChannelCreator vit = new VirtualChannelCreator();
-        VirtualChannel ch= vit.createChannel(new PhoneChannel());
-        ch.getCapabilities();
     
-    }
+    
     
 }
